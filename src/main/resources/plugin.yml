@@ -1,0 +1,19 @@
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+main: com.rngservers.floodgateplaceholder.FloodgatePlaceholder
+depend: [floodgate-bukkit]
+softdepend: [PlaceholderAPI]
+author: RandomUnknown
+
+commands:
+  floodgateplaceholder:
+    description: FloodgatePlaceholder info
+    default: true
+    usage: /floodgateplaceholder
+    aliases: [fgp]
+
+permissions:
+  floodgateplaceholder.reload:
+    default: op
+    description: Reload FloodgatePlaceholder
